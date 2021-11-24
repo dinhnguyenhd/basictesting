@@ -80,21 +80,13 @@
 			<artifactId>maven-checkstyle-plugin</artifactId>
 			<version>3.1.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.glassfish.jaxb</groupId>
-			<artifactId>jaxb-runtime</artifactId>
-		</dependency>
-		
-		<!-- Runtime, com.sun.xml.bind module -->
-		<dependency>
-		    <groupId>org.glassfish.jaxb</groupId>
-		    <artifactId>jaxb-runtime</artifactId>
-		    <version>2.3.2</version>
-		</dependency>
+
+
 	</dependencies>
 
 	<build>
