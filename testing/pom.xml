@@ -68,22 +68,31 @@
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-checkstyle-plugin</artifactId>
 			<version>3.1.2</version>
 			<type>maven-plugin</type>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-checkstyle-plugin</artifactId>
 			<version>3.1.2</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		
 		<dependency>
-			<groupId>javax.xml.bind</groupId>
-			<artifactId>jaxb-api</artifactId>
+			<groupId>jakarta.xml.bind</groupId>
+			<artifactId>jakarta.xml.bind-api</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>3.0.0</version>
+			<scope>runtime</scope>
 		</dependency>
 
 
